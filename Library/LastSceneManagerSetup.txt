@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/FlatScene.unity
+- path: Assets/Scenes/HiddenObjectsGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

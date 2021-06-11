@@ -11,4 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HiddenObjectsGame.unity
     guid: 2252f6bde44c1884a834edcb9beb41dd
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: ce48225ac4a63f142b599f3a3eb74b75
+  - enabled: 1
+    path: Assets/Scenes/Parus.unity
+    guid: 6ea37f1e117947d42a070be725d53905
+  - enabled: 1
+    path: Assets/Scenes/SecondBuilding.unity
+    guid: 421eca942d261cd40959fce9ecba2600
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 246561e1c4e00174288e2e51b42a74b2
+  - enabled: 1
+    path: Assets/Scenes/GreenStreet.unity
+    guid: 2c9356428a791e5408d1d0a238f40853
+  - enabled: 1
+    path: Assets/Scenes/MainBuilding.unity
+    guid: 98037c802aea0ec42b742f0c67c776e7
   m_configObjects: {}
