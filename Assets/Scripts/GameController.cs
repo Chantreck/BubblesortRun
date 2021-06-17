@@ -31,7 +31,7 @@ public class GameController : MonoBehaviour
         background.SetActive(false);
         victoryMessage.SetActive(true);
         StartCoroutine(Wait3Sec());
-        WardrobeController.isSolved = true;
+        WardrobeInteractor.isSolved = true;
         End();
     }
 
