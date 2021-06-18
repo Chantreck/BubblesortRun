@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 340595461}
   - component: {fileID: 340595463}
   - component: {fileID: 340595464}
+  - component: {fileID: 340595465}
   m_Layer: 0
   m_Name: "\u0412\u0442\u043E\u0440\u043E\u0439 \u043A\u043E\u0440\u043F\u0443\u0441"
   m_TagString: Untagged
@@ -828,6 +829,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2db6b8b7c0b4145b5f21cd4c6d53e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &340595465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340595460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ac639bd2ce8d449557066f4f8acac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: SecondBuilding
 --- !u!1 &407788798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,8 +1093,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1383455661
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c7872e7631f270e4da63ebad407a0d65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1182,6 +1196,34 @@ PrefabInstance:
       propertyPath: message
       value: 
       objectReference: {fileID: 1026231931}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 340595465}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Transfer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveToLocation, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029376732017073876, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
+      propertyPath: interactAction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2438783ad1d3ae34d986c6f07a82c5c2, type: 3}
 --- !u!4 &539540824 stripped
@@ -1450,7 +1492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a3018cea190a34ea6e0df0d335ef4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSpeed: 3
+  currentSpeed: 5
 --- !u!50 &968613254
 Rigidbody2D:
   serializedVersion: 4
@@ -1603,7 +1645,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1629,7 +1671,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1655,7 +1697,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1681,7 +1723,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1707,7 +1749,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1733,7 +1775,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1759,7 +1801,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1785,7 +1827,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1811,7 +1853,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1837,7 +1879,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1863,7 +1905,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1889,7 +1931,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1915,7 +1957,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1941,7 +1983,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.856384, y: 16.07}
+    oldSize: {x: 38.85, y: 16.07}
     newSize: {x: 38.856384, y: 16.07}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1996,8 +2038,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -176}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -491.22983}
+  m_SizeDelta: {x: 809.86, y: 97.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026231933
 MonoBehaviour:
@@ -2020,19 +2062,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: c273f7043638d754f9962b1440854b15, type: 3}
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 6
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press E to interract
+  m_Text: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 E, \u0447\u0442\u043E\u0431\u044B
+    \u0432\u043E\u0439\u0442\u0438 \u0432 \u0437\u0434\u0430\u043D\u0438\u0435"
 --- !u!222 &1026231934
 CanvasRenderer:
   m_ObjectHideFlags: 0

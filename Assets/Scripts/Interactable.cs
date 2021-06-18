@@ -7,7 +7,6 @@ public class Interactable : MonoBehaviour
     public KeyCode interactKey;
     public UnityEvent interactAction;
     public GameObject message;
-    public GameObject curObject;
 
     void Update()
     {
