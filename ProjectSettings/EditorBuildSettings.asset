@@ -6,6 +6,84 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/startScene.unity
+    guid: 463b0211c09b08c4eb3585105795ccfd
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 9b8d56cb064ff9f4288cfb1cea3b5f5e
+  - enabled: 1
+    path: Assets/Scenes/Flat.unity
+    guid: f52bb374dfa803647b4c826f09562ced
+  - enabled: 1
+    path: Assets/Scenes/GardenToLibrary.unity
+    guid: afc4cebd046436e4485a7d870b7cddeb
+  - enabled: 1
+    path: Assets/Scenes/GardenToMainBuild.unity
+    guid: 29d12654f564f00408f63ad4c2b58ac9
+  - enabled: 1
+    path: Assets/Scenes/GardenToSecBuild.unity
+    guid: 246561e1c4e00174288e2e51b42a74b2
+  - enabled: 1
+    path: Assets/Scenes/GreenStreet.unity
+    guid: 345e049fa65b5184e836545ecedff15e
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: ce48225ac4a63f142b599f3a3eb74b75
+  - enabled: 1
+    path: Assets/Scenes/MainBuildingEnemy.unity
+    guid: 98037c802aea0ec42b742f0c67c776e7
+  - enabled: 1
+    path: Assets/Scenes/MainBuildingPiano.unity
+    guid: 0b59ee75e2bbba54fa3452d06e364034
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 5c7390a3280abdf42a77cbcbffb7b96c
+  - enabled: 1
+    path: Assets/Scenes/Parus.unity
+    guid: 6ea37f1e117947d42a070be725d53905
+  - enabled: 1
+    path: Assets/Scenes/Podkova 1.unity
+    guid: ba5291543577c8a45b546a59e6a1ec19
+  - enabled: 1
+    path: Assets/Scenes/Podkova.unity
+    guid: 5a90190f5ba882d478aa29820db219b5
+  - enabled: 1
+    path: Assets/Scenes/PreEnding.unity
+    guid: 8d5404db3e4949c4398bdf562fb7e6ac
+  - enabled: 1
+    path: Assets/Scenes/SecondBuilding.unity
+    guid: 421eca942d261cd40959fce9ecba2600
+  - enabled: 1
+    path: Assets/Scenes/SecurityPage.unity
+    guid: c059650fb7769f04fbfad01450e26cf7
+  - enabled: 1
+    path: Assets/Scenes/SecurityPage2.unity
+    guid: c0cb9ff6a433eeb41ac9010358a0e07a
+  - enabled: 1
+    path: Assets/Scenes/SecurityPage3.unity
+    guid: ced43ba6f535b314f8955af38aaf83a0
+  - enabled: 1
+    path: Assets/Scenes/SmallRoom.unity
+    guid: b50793ae037660044b553ced4307fd6c
+  - enabled: 1
+    path: Assets/Scenes/temp.unity
+    guid: dd0f267807f1ad04ab56e8b7b4c02417
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/Card.unity
+    guid: 1b4acca9e33cd6f4a8c9cf546340d3ae
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/FlappyBird.unity
+    guid: b458403e31195074cb21f61fd73d0fc9
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/HiddenObjects.unity
+    guid: 2252f6bde44c1884a834edcb9beb41dd
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/Piano.unity
+    guid: e6029de60ea77ab40b1f6e8ca89fc2a7
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/Platformer.unity
+    guid: 3db88dc585582d14e88887fe589f4c9d
+  - enabled: 1
+    path: Assets/Scenes/temp3.unity
+    guid: a0a92869e8686f54d9333cf67e61b4a4
   m_configObjects: {}
